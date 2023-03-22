@@ -1,0 +1,22 @@
+name: deltaviewer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - ipython
+  - jupyter
+  - mrc
+  - matplotlib
+  - imageio
+  - opencv
+  - pillow
+  - plotly
+  - ipywidgets
+  - dash
+  - jupyter-dash
+  - pip
+  - pip:
+    - mrc=0.3.0
